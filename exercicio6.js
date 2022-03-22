@@ -29,9 +29,6 @@ while(true) {
      codigo   = lines.shift();
      altura = lines.shift();
      peso = lines.shift();
- 
-    console
-
 
     if(codigo == "0" || !codigo)  {
               break;
