@@ -1,0 +1,16 @@
+
+------------COM NODE PURO-------------------------
+const rl = readline.createInterface({ input, output });
+
+const answer = await rl.question('What do you think of Node.js? ');
+
+console.log(`Thank you for your valuable feedback: ${answer}`);
+
+------------------
+
+
+Abstraindo INPUT
+
+const inquirer == require ('inquirer');
+//Cada pergunta é um objeto
+inquirer.prompt({}
